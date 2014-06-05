@@ -1,6 +1,6 @@
 # MAKY -- v2.4
 MAKYVERSION = 2.4
-# Part of MySetup Project
+# Formerly part of MySetup Project
 # https://github.com/carrieje/mysetup
 #####
 # LICENCE

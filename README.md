@@ -82,6 +82,14 @@ You have not installed pkg-config which is required to run Maky properly.
 Use your package manager to install it. On ubuntu-like (debian too) just run :
 
     $ sudo apt-get install pkg-builder
+    
+FAQ
+---
+
+ * May I use another compiler than Gnu like Llvm for instance ?
+ 
+I would say yes, as long as the flags and the command line arguments are the same, you could change your compiler.
+If they do not share the same interaction set, you will need to change all the calls to the compiler in maky.mk.
 
 Drawbacks
 ---------

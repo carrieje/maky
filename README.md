@@ -10,7 +10,7 @@ Maky is a generic, reusable and ready-to-use Makefile for C or C++.
 In most case, you have no configuration to set to make it work.
 In other general cases, you have at most 2 variables to set in the file if you want to be minimal.
 
-Maky includes an awesome feature as it can handle several main files. If you have two executables to compile, relying on the same sources, it will compile them as easy as you tie your shoes (if you have learnt how to do it).
+Maky includes an awesome feature as it can handle several main files. If you have two executables to compile, relying on the same sources, it will compile them as easy as tying a shoelace (if you have learnt how to do it).
 
 Requirements
 ------------
@@ -37,7 +37,9 @@ And run it !
     $ cp ~/Downloads/maky/maky.mk Makefile
     $ make
 
-Run make help to get some more information.
+Run `make help` to get some more information.
+Run `make -f maky.mk help` if you do not want to copy the original file as `Makefile`.
+
 
 Just as easy ?!
 ---------------

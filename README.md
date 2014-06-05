@@ -61,6 +61,11 @@ If you have several main source files, indicate them here.
 If your main file is not called main.cpp or main.c, you can change it here too.
 You can change the compilation and linker flags too.
 
+In projects where you have several main files, you can compile a single target by naming it.
+If the main file is unicorn.cpp, run :
+
+    $ make unicorn
+
 Trouble shootings
 -----------------
 

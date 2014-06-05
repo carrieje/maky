@@ -64,13 +64,15 @@ You can change the compilation and linker flags too.
 Trouble shootings
 -----------------
 
- * `make[1]: *** No rule to make target `main.o'. Stop.`
- It means you do not have a main.cpp or main.c file.
- Go to the Plumbing Customization section in the Makefile and edit the MAINS variable with the name of your main file.
+ * `make[1]: *** No rule to make target 'main.o'. Stop.`
+
+It means you do not have a main.cpp or main.c file.
+Go to the Plumbing Customization section in the Makefile and edit the MAINS variable with the name of your main file.
 
  * `make: pkg-config : command not found`
- You have not installed pkg-config which is required to run Maky properly.
- Use your package manager to install it. On ubuntu-like (debian too) just run :
+
+You have not installed pkg-config which is required to run Maky properly.
+Use your package manager to install it. On ubuntu-like (debian too) just run :
 
     $ sudo apt-get install pkg-builder
 
